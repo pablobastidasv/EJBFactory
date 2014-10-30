@@ -5,5 +5,5 @@ package com.test.factory;
  */
 public interface ServicesProvider {
 
-    <T> T doLookup(final Class<T> clazz, final ServicioEnum servicioEnum);
+    <T> T doLookup(final Class<T> clazz, final ServiceDescriptorDTO servicioEnum);
 }

@@ -8,7 +8,7 @@ import javax.enterprise.inject.Alternative;
 @Alternative
 public class RemoteEJBProvider implements ServicesProvider {
     @Override
-    public <T> T doLookup(Class<T> clazz, ServicioEnum servicioEnum) {
+    public <T> T doLookup(Class<T> clazz, ServiceDescriptorDTO servicioEnum) {
         return new BeanLocator.GlobalJNDIName()
                 .withAppName(servicioEnum.getAppName())
                 .withModuleName(servicioEnum.getModuleName())

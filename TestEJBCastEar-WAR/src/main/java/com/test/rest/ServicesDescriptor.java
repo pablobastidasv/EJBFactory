@@ -1,4 +1,6 @@
-package com.test.factory;
+package com.test.rest;
+
+import com.test.ejb.ServicioEnum;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Retention;

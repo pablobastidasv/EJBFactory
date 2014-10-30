@@ -1,6 +1,4 @@
-package com.test.factory;
-
-import com.test.ejb.ServiciosRemote;
+package com.test.ejb;
 
 /**
  * Created by pbastidas on 30/10/14.
